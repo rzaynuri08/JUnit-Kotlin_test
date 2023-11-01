@@ -4,7 +4,7 @@ package org.example.ecommerce
 class Warehouse {
     // Properti warehouse adalah sebuah hashmap yang digunakan untuk menyimpan stok produk
     private val warehouse: HashMap<String, Int> = hashMapOf()
-    // Fungsi add digunakan untuk menambahkan produk ke stok gudang dengan jumlah tertentu
+    // Function add digunakan untuk menambahkan produk ke stok gudang dengan jumlah tertentu
     fun add(product: String, quantity: Int) {
         warehouse[product] = quantity
     }

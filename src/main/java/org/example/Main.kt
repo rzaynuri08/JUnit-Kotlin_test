@@ -1,11 +1,11 @@
 package org.example
 
 class Calculator {
-    // Fungsi untuk penambahan
+    // Function untuk penambahan
     fun add(first: Int, second: Int): Int {
         return first + second
     }
-    // Fungsi untuk pengurangan
+    // Function untuk pengurangan
     fun sub(first: Int, second: Int): Int {
         return first - second
     }

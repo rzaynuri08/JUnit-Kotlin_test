@@ -7,13 +7,13 @@ class Order(private val product: String, private val quantity: Int) {
     // Deklarasi properti IsFilled yang digunakan untuk menyimpan status pesanan
     private var isFilled: Boolean = false
 
-    // Fungsi fill digunakan untuk mengisi pesanan produk dari gudang
+    // Function fill digunakan untuk mengisi pesanan produk dari gudang
     fun fill(warehouse: Warehouse) {
         this.warehouse = warehouse
         isFilled = this.warehouse.remove(product, quantity)
     }
 
-    // Fungsi isFilled digunakan untuk memeriksa apakah pesanan telah diisi atau belum
+    // Function isFilled digunakan untuk memeriksa apakah pesanan telah diisi atau belum
     fun isFilled(): Boolean {
         return isFilled
     }
